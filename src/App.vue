@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Meteo Search</router-link>
+      <h1>WEATHER API</h1>
     </div>
     <router-view/>
   </div>
@@ -14,14 +14,18 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: black;
 }
 
 #nav {
-  padding: 30px;
+  padding: 5px;
 
-  a {
+  h1 {
+    margin: 0;
     font-weight: bold;
-    color: #2c3e50;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
   }
 }
 </style>
